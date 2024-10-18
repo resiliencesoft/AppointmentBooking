@@ -49,9 +49,9 @@
                             </li>
                             <li class="appointment-action">
                                 <div class="detail-badge-info">
-                                    <span *ngIf="appointmentData.isUpcomming" class="badge bg-yellow">Upcoming</span>
-                                    <span  *ngIf="appointmentData.isCancelled" class="badge bg-danger">Upcoming</span>
-                                    <span  *ngIf="appointmentData.isCompleted" class="badge bg-success">Upcoming</span>
+                                    <span  *ngIf="appointmentData.isUpcomming" class="badge bg-yellow">Upcoming</span>
+                                    <span  *ngIf="appointmentData.isCompleted" class="badge bg-success">Completed</span>
+                                    <span  *ngIf="appointmentData.isCancelled" class="badge bg-danger">Cancelled</span>
                                 </div>
                                 <div class="consult-fees">
                                     <h6>Consultation Fees : INR {{appointmentData.fees}}</h6>
